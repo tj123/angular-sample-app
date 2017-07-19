@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { FmGridDirective } from './fm-grid.directive';
+import { HeheComponent } from './hehe/hehe.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FmGridDirective,
+    HeheComponent
   ],
   imports: [
     BrowserModule,
